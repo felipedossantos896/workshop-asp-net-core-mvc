@@ -25,6 +25,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Message"] = "Salles Web MVC App from C# Course";
+            ViewData["Email"] = "felipedossantos896@gmail.com";
             return View();
         }
 
